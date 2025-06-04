@@ -1,0 +1,6 @@
+# remove fundo
+rembg
+onnxruntime
+opencv-python
+matplotlib
+numpy
