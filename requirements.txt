@@ -4,3 +4,5 @@ onnxruntime
 opencv-python
 matplotlib
 numpy
+pandas
+scikit-learn

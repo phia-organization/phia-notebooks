@@ -1,2 +1,5 @@
 venv/
 phia/
+
+data/*
+!data/.gitkeep

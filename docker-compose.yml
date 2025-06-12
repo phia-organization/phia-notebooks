@@ -1,0 +1,17 @@
+version: '3.9'
+networks:
+  phia-network:
+    name: phia-network
+services:
+  label-studio:
+    restart: unless-stopped
+    image: heartexlabs/label-studio:latest
+    environment:
+      - LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true
+      - LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/label-studio/files
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/label-studio/data
+    networks:
+      - phia-network
