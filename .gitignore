@@ -8,3 +8,10 @@ models/*
 !models/.gitkeep
 
 outputs/*
+!outputs/.gitkeep
+
+artifacts/*
+!artifacts/.gitkeep
+
+assets/*
+!assets/.gitkeep
