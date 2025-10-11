@@ -8,3 +8,5 @@ pandas
 scikit-learn
 ipywidgets
 ipyfilechooser
+plotly
+seaborn
